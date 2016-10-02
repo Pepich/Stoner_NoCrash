@@ -1,0 +1,10 @@
+name: NoCrash
+version: 1.0.0
+authors: [pepich1851]
+description: A plugin to prevent the most common crash items
+main: com.redstoner.nocrash.Main
+prefix: NoCrash
+commands:
+  nocrash:
+    usage: §e/<command> <player> <item> [drop/move/use/&aall&e] &7or &e/<command> help &7for help
+    description: Checks if the specified player can drop/move the item. Defaults to checking both. Defaults to help, will print permission usage.
